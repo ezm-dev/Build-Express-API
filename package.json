@@ -1,0 +1,13 @@
+{
+  "name": "build-express-api",
+  "version": "1.0.0",
+  "description": "a dataset of the world’s most promising startups",
+  "license": "ISC",
+  "author": "Eman",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
