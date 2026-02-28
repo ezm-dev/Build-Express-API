@@ -7,10 +7,13 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "start": "node server.mjs",
+    "start": "nodemon server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
